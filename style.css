@@ -1,0 +1,133 @@
+.navbar {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(29, 26, 26);
+}
+.nav-wrapper {
+  max-width: 1024px;
+  width: 100%;
+}
+.brand-logo {
+  letter-spacing: 10px;
+}
+
+.section {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 38, 38),
+    rgb(29, 26, 26)
+  );
+  color: white;
+}
+
+.bigfuckingdiv {
+  width: 100%;
+  background-image: linear-gradient(to bottom right, black, rgb(139, 137, 137));
+}
+.pictures {
+  display: grid;
+  height: inherit;
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(3, 1fr);
+  width: 80%;
+}
+
+.page-footer {
+  background-image: linear-gradient(
+    to bottom right,
+    rgb(255, 38, 38),
+    rgb(29, 26, 26)
+  );
+}
+
+.bigfuckingdiv {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.h1 {
+  color: aliceblue;
+  margin-top: 0px;
+  font-size: 100px;
+  margin: auto;
+}
+
+.card-image img {
+  height: 150px;
+}
+
+.cardpic .card {
+  width: 300px;
+}
+
+.cardholder {
+  margin: 0px;
+}
+
+.job {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(to bottom right, rgb(139, 137, 137), black);
+  position: relative;
+}
+
+.box1 {
+  height: 400px;
+  width: 500px;
+  background-color: red;
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  color: black;
+  font-size: 50px;
+}
+
+.box2 {
+  height: 400px;
+  width: 500px;
+  background-color: black;
+  position: absolute;
+  top: 300px;
+  right: 400px;
+  color: red;
+}
+
+.big {
+  font-size: 100px;
+}
+
+.jobtitle {
+  font-size: 50px;
+}
+
+.box1 img {
+  height: 150px;
+  width: 150px;
+  position: absolute;
+  right: 50px;
+  bottom: 10px;
+}
+
+#zuile {
+  height: 700px;
+  width: 500px;
+  overflow-y: scroll;
+  margin: 0px;
+  border: none;
+  position: relative;
+  top: 50px;
+  left: 50px;
+}
+
+.job .collection .collection-item {
+  background-color: black;
+  border: black;
+}
+
+.jobchoi {
+  position: relative;
+  top: 50px;
+  left: 50px;
+  color: aliceblue;
+}
